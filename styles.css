@@ -115,9 +115,7 @@ li {
     }
 
     .navbar {
-        border: 1px solid var(--background-color);
-        border-radius: 15px;
-        margin: 15px;
+        border-bottom: 1px solid var(--background-color);
     }
 
     .nav-menu {
