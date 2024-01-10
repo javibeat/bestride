@@ -14,23 +14,23 @@
 
     <header></header>
 
-    <section class="home">
+    <section>
 
         <div class="centro">
-            <img class="logo1" src="img/logo.png" alt="">
+            <img class="logo1" src="img/logo1.png" alt="">
         </div>
 
     </section>
 
-    <section class="home2">
-
-        <div class="services">
-            <h1>SERVICES</h1>
-        </div>
+    <section>
 
         <div class="centro">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div>
+                <h2>SERVICES</h2>
+            </div>
+
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Optio aliquid quisquam pariatur beatae voluptatem nisi unde architecto autem,
                 praesentium perferendis ut ab tenetur magni est deleniti vero voluptate maiores corporis.</p>
 
@@ -38,19 +38,19 @@
 
     </section>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        fetch('menu.html')
-            .then(response => response.text())
-            .then(data => {
-                document.querySelector('header').innerHTML = data;
-                initializeMenu();
-            })
-            .catch(error => console.error('Error loading menu:', error));
-    });
-</script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('menu.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('header').innerHTML = data;
+                    initializeMenu();
+                })
+                .catch(error => console.error('Error loading menu:', error));
+        });
+    </script>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 
 
