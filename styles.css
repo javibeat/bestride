@@ -5,7 +5,7 @@
     /* El color de fondo por defecto */
     --accent-color: #ffda5f;
     /* Un color para elementos que quieres destacar */
-    --background-color2: #00000044;
+    --background-color2: #000000;
 }
 
 * {
@@ -64,7 +64,7 @@ li {
 }
 
 .nav-link:hover {
-    color: var(--background-color2);
+    color: var(--primary-color);
 }
 
 .hamburger {
@@ -79,7 +79,7 @@ li {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: var(--background-color);
 }
 
 @media (max-width: 768px) {
@@ -99,10 +99,14 @@ li {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .navbar {
+        border-bottom: 1px solid var(--background-color);
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 90px;
+        top: 70px;
         gap: 0;
         flex-direction: column;
         background-color: var(--background-color2);
