@@ -146,6 +146,20 @@ li {
     height: 100dvh;
 }
 
+.services {
+    text-align: center;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
 section {
     color: var(--background-color);
 }
