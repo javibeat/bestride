@@ -242,6 +242,13 @@ h2 {
     }
 }
 
+@media (max-width: 428px) {
+
+    .logo1 {
+        width: 70%;
+    }
+}
+
 /*-----CARD-----*/
 
 .cards-container {
