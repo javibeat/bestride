@@ -195,14 +195,14 @@ h2 {
 @media (max-width: 926px) {
 
     .logo1 {
-        width: 70%;
+        width: 40%;
     }
 }
 
 @media (max-width: 844px) {
 
     .logo1 {
-        width: 40%;
+        width: 50%;
     }
 }
 
