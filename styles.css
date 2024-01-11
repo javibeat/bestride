@@ -341,6 +341,18 @@ h2 {
     }
 }
 
+@media (max-width: 844px) {
+
+    .main {
+        height: 100%;
+        margin: 70px;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
 @media (max-width: 768px) {
     .cards-container {
         display: flex;
@@ -349,13 +361,5 @@ h2 {
 
     .card {
         width: 350px;
-    }
-}
-
-@media (max-width: 844px) {
-
-    .main {
-        height: 100%;
-        margin: 70px;
     }
 }
