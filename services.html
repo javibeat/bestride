@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="scroll">
+
+    <header>    </header>
+
+    <section class="margen">
+
+        <div class="main">
+
+            <h1 class="title">SERVICES</h1>
+
+            <div class="cards-container">
+
+                <div class="card">
+
+                    <div>
+                        <h3>SERVICES</h3>
+                    </div>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio aliquid quisquam pariatur beatae voluptatem nisi unde architecto autem,
+                        praesentium perferendis ut ab tenetur magni est deleniti vero voluptate maiores corporis.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div>
+                        <h3>SERVICES</h3>
+                    </div>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio aliquid quisquam pariatur beatae voluptatem nisi unde architecto autem,
+                        praesentium perferendis ut ab tenetur magni est deleniti vero voluptate maiores corporis.</p>
+
+                </div>
+
+                <div class="card">
+
+                    <div>
+                        <h3>SERVICES</h3>
+                    </div>
+
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Optio aliquid quisquam pariatur beatae voluptatem nisi unde architecto autem,
+                        praesentium perferendis ut ab tenetur magni est deleniti vero voluptate maiores corporis.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('menu.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('header').innerHTML = data;
+                    initializeMenu();
+                })
+                .catch(error => console.error('Error loading menu:', error));
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
