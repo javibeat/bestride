@@ -192,17 +192,10 @@ h2 {
     margin: 50px;
 }
 
-@media (max-width: 1080px) {
-
-    .logo1 {
-        width: 50%;
-    }
-}
-
 @media (max-width: 926px) {
 
     .logo1 {
-        width: 50%;
+        width: 70%;
     }
 }
 
