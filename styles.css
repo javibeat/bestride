@@ -103,6 +103,11 @@ li {
 @media (max-width: 1080px) {
     .navbar {
         max-width: 1000px;
+        height: 40px;
+    }
+
+    .logo {
+        width: 100px;
     }
 }
 
