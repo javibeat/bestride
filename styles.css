@@ -34,6 +34,7 @@ body {
 
 .title {
     margin: 50px;
+    color: var(--background-color);
 }
 
 
@@ -157,7 +158,6 @@ li {
 /*-----EN MENU----*/
 
 section {
-    color: var(--background-color);
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -185,6 +185,16 @@ section {
 
 h2 {
     margin: 50px;
+}
+
+@media (max-width: 844px) {
+
+    .logo1 {
+        width: 40%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 810px) {
