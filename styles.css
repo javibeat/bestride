@@ -235,6 +235,13 @@ h2 {
     }
 }
 
+@media (max-width: 667px) {
+
+    .logo1 {
+        width: 50%;
+    }
+}
+
 /*-----CARD-----*/
 
 .cards-container {
@@ -311,7 +318,7 @@ h2 {
         height: 100%;
         margin: 70px;
     }
-    
+
     .cards-container {
         display: flex;
         max-width: 100%;
