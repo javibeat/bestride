@@ -199,6 +199,22 @@ img {
 
 .top {
     margin-top: 50px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.top::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 100px;
+    background-color: var(--background-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .links2 {
