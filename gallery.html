@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Join The Best Ride | Gallery</title>
+    <meta name="description"
+        content="Join the Best Ride - Experience premium VIP transportation services in Ibiza. Our professional drivers ensure your journey is exceptional with human excellence at its core.">
+    <meta name="keywords"
+        content="private transportation, VIP transport Ibiza, luxury travel, premium services, Ibiza taxis, professional drivers, exclusive journeys, transport services Ibiza">
+    <meta name="author" content="Join The Best Ride">
+    <meta http-equiv="content-language" content="en,es">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/">
+    <meta property="og:title" content="Join The Best Ride | Private VIP Transportation in Ibiza">
+    <meta property="og:description"
+        content="Join the Best Ride - Experience premium VIP transportation services in Ibiza. Our professional drivers ensure your journey is exceptional with human excellence at its core.">
+    <meta property="og:image" content="img/logo1.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="yourwebsite.com">
+    <meta property="twitter:url" content="https://www.yourwebsite.com/">
+    <meta name="twitter:title" content="Join The Best Ride | Private VIP Transportation in Ibiza">
+    <meta name="twitter:description"
+        content="Join the Best Ride - Experience premium VIP transportation services in Ibiza. Our professional drivers ensure your journey is exceptional with human excellence at its core.">
+    <meta name="twitter:image" content="img/logo1.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header></header>
+
+<body>
+
+    <div class="main">
+
+        <h1 class="top">GALLERY</h1>
+
+        <div class="gallery">
+            <div class="gallery-display">
+                <!-- La imagen principal se mostrará aquí -->
+                <img class="gallery-main-image" src="" alt="Main Image">
+            </div>
+            <div class="gallery-thumbnails">
+                <!-- Las miniaturas se cargarán dinámicamente aquí -->
+            </div>
+        </div>
+
+        <div class="bouncing-blobs-container">
+            <div class="bouncing-blobs-glass"></div>
+            <div class="bouncing-blobs">
+                <div class="bouncing-blob bouncing-blob--blue"></div>
+                <div class="bouncing-blob bouncing-blob--blue"></div>
+                <div class="bouncing-blob bouncing-blob--blue"></div>
+                <div class="bouncing-blob bouncing-blob--white"></div>
+                <div class="bouncing-blob bouncing-blob--purple"></div>
+                <div class="bouncing-blob bouncing-blob--purple"></div>
+                <div class="bouncing-blob bouncing-blob--pink"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('menu.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector('header').innerHTML = data;
+                    initializeMenu();
+                })
+                .catch(error => console.error('Error loading menu:', error));
+        });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+    <script src="fondo.js"></script>
+
+</body>
+
+</html>
