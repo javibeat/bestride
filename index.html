@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -18,60 +17,31 @@
     <meta property="og:url" content="https://www.yourwebsite.com/">
     <meta property="og:title" content="Join The Best Ride | Private VIP Transportation in Ibiza">
     <meta property="og:description" content="Join the Best Ride - Experience premium VIP transportation services in Ibiza. Our professional drivers ensure your journey is exceptional with human excellence at its core.">
-    <meta property="og:image" content="img/logo1.png">
+    <meta property="og:image" content="img/logo.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="yourwebsite.com">
-    <meta property="twitter:url" content="https://www.yourwebsite.com/">
+    <meta property="twitter:domain" content="jointhebestrideibiza.com">
+    <meta property="twitter:url" content="https://www.jointhebestrideibiza.com/">
     <meta name="twitter:title" content="Join The Best Ride | Private VIP Transportation in Ibiza">
     <meta name="twitter:description" content="Join the Best Ride - Experience premium VIP transportation services in Ibiza. Our professional drivers ensure your journey is exceptional with human excellence at its core.">
-    <meta name="twitter:image" content="img/logo1.png">
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon.png" alt="favicon" type="image/png">
-
+    <meta name="twitter:image" content="img/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5210dbf26f.js" crossorigin="anonymous"></script>
 </head>
-
-<header></header>
-
 <body>
-
-    <div class="bouncing-blobs-container">
-        <div class="bouncing-blobs-glass"></div>
-        <div class="bouncing-blobs">
-          <div class="bouncing-blob bouncing-blob--blue"></div>
-          <div class="bouncing-blob bouncing-blob--blue"></div>
-          <div class="bouncing-blob bouncing-blob--blue"></div>
-          <div class="bouncing-blob bouncing-blob--white"></div>
-          <div class="bouncing-blob bouncing-blob--purple"></div>
-          <div class="bouncing-blob bouncing-blob--purple"></div>
-          <div class="bouncing-blob bouncing-blob--pink"></div>
+    <div id="menu-placeholder"></div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Need a Ride?</h1>
+            <p>Tremor est vivos magna. Expansis ulnis video missing carmen armis caereuleum in locis.</p>
+            <div class="buttons">
+                <a href="https://wa.me/34603367980" class="btn btn-book">Make a Booking</a>
+            </div>
         </div>
-      </div>
-      <div class="content">
-        <!-- Contenido aquí. Ejemplo: una imagen o texto -->
-        <img class="logo1" src="img/logo1.png" alt="Logo">
-        <!-- Puedes reemplazar lo anterior con cualquier otro contenido -->
-    </div>
+    </section>
 
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            fetch('menu.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.querySelector('header').innerHTML = data;
-                    initializeMenu();
-                })
-                .catch(error => console.error('Error loading menu:', error));
-        });
-    </script>
-
-    <script src="script.js"></script>
-    <script src="fondo.js"></script>
-
+    <script src="script.js" defer></script>
 </body>
-
 </html>
