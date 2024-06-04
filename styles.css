@@ -260,7 +260,7 @@ nav {
 /*PAGE HEADER*/
 
 .page-header {
-    background: url('img/header-background.jpg') no-repeat center center/cover;
+    background: url('img/hero-image.jpg') no-repeat center center/cover;
     height: 300px;
     display: flex;
     justify-content: center;
