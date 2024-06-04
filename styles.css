@@ -193,6 +193,9 @@ nav {
     background: #e56b00;
 }
 
+.buttons .btn btn-book {
+    margin-top: 40px;
+}
 /* Responsive */
 @media (max-width: 868px) {
     .hamburger {
@@ -361,6 +364,10 @@ nav {
 
 .about-us .btn:hover {
     background: #e56b00;
+}
+
+.hero-content .buttons {
+    margin-top: 40px;
 }
 
 /* Responsive */
