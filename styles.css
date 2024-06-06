@@ -426,6 +426,16 @@ nav {
     margin-bottom: 25px;
 }
 
+.service-box a {
+    background: #ff7e00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
 .service-box:hover {
     transform: translateY(-10px);
 }
@@ -444,7 +454,7 @@ nav {
 .service-box p {
     font-size: 1rem;
     color: #5d5d5d;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .service-box .social-media {
@@ -457,10 +467,6 @@ nav {
     color: #fff;
     margin: 0 5px;
     transition: color 0.3s;
-}
-
-.service-box .social-media a:hover {
-    color: #ff7e00;
 }
 
 /* Gallery Page */
