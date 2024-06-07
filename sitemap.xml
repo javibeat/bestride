@@ -6,11 +6,6 @@
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
    </url>
-   <url>
-      <loc>https://jointhebestrideibiza.com/services.html</loc>
-      <lastmod>2024-01-01</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-   </url>
+   
    <!-- Agrega más URLs de tu sitio aquí -->
 </urlset>
