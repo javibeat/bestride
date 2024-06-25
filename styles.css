@@ -396,6 +396,21 @@ nav {
 }
 
 /* Services Page */
+.centered-line {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta el espacio inferior si es necesario */
+}
+
+.centered-line::after {
+    content: '';
+    display: block;
+    width: 50px; /* Ajusta el ancho de la línea */
+    height: 4px; /* Ajusta la altura de la línea */
+    background-color: #000; /* Ajusta el color de la línea */
+    margin: 10px auto 0; /* Ajusta los márgenes si es necesario */
+}
+
 .services .container {
     display: flex;
     flex-direction: column;
@@ -411,19 +426,24 @@ nav {
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .service-box {
+    display: flex;
+    flex-direction: column;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 20px;
-    max-width: 600px;
+    max-width: 500px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px); /* Añadir desenfoque de fondo */
     -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Borde claro para efecto de vidrio */
+    border: 1px solid rgba(255, 255, 255, 0.6); /* Borde claro para efecto de vidrio */
     transition: transform 0.3s;
-    margin-bottom: 25px;
+    margin: auto;
+    align-items: center;
+    text-align: justify;
 }
 
 .service-box a {
@@ -433,11 +453,11 @@ nav {
     text-decoration: none;
     margin: 0 10px;
     border-radius: 30px;
-    transition: background 0.3s;
 }
 
-.service-box:hover {
-    transform: translateY(-10px);
+.service-box a:hover {
+    background: #c36304;
+    transition: background 0.5s;
 }
 
 .service-box h2 {
